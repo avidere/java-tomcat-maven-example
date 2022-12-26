@@ -4,7 +4,7 @@ pipeline {
     agent any
     environment {
         def git_branch = 'master'
-        def git_url = 'https://github.com/avidere/hello.git'
+        def git_url = 'https://github.com/avidere/java-tomcat-maven-example.git'
 
         def mvntest = 'mvn test '
         def mvnpackage = 'mvn clean install'
